@@ -1,0 +1,35 @@
+name: awesome_board_v2
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.4 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  equatable: ^2.0.5
+  go_router: ^5.1.5
+  flutter_hooks: ^0.18.5+1
+  flutter_riverpod: ^2.1.1
+  hooks_riverpod: ^2.1.1
+  fl_query: ^0.3.1
+  fl_query_hooks: ^0.3.1
+  ionicons: ^0.2.1
+  shared_preferences: ^2.0.15
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
